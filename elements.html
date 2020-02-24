@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Học Front End</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./assets/css/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/css/bootstrap-4.4.1-dist/css/bootstrap.min.css.map">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/resetcss.css">
+	<link rel="stylesheet" href="assets/css/base.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script type="text/javascript" src="assets/css/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="assets/css/home.css">
+	<script type="text/javascript" src="assets/js/home.js"></script>
+	<link rel="stylesheet" href="assets/css/elements.css">
+</head>
+<body>
+	<div class="container-fluid">
+	<header class="header">
+			<div class="container-fluid">
+				<!-- header__contact -->
+				<div class="header__contact">
+					<div class="container">
+						<ul class="header__contact--social">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-google"></i></a></li>
+						</ul>
+						<ul class="header__contact--contact">
+							<li><i class="fa fa-phone"></i><a href="#">0123.456.789</a></li>
+							<li><i class="fa fa-envelope"></i><a href="#">Contacme@gmail.com</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- end header contact -->
+
+				<!-- header nav -->
+				<div class="header__navbar" id="header__navbar">
+					<div class="container">
+						<nav class="navbar navbar-expand-lg navbar-light header__navbar--menu">
+							<img src="images/logo.png" alt="" height="50%">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav tr-menu " id="nav">
+									<li class="nav-item active">
+										<a class="nav-link" href="home.html">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="department.html">Department</a>
+									</li>
+									
+									<li class="nav-item">
+										<a class="nav-link" href="doctor.html">Doctors</a>
+									</li>
+									<li class="nav-item" id="parent-menu">
+										<a class="nav-link" href="#">Pages</a>
+										<ul class="sub-menu">
+											<li><a href="service.html">Service</a></li>
+											<hr>
+											<li><a href="elements.html">Elements</a></li>
+											<hr>
+											<li><a href="blog.html">Blog</a></li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="blog.html">Blog</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="contact.html">Contact</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+				<!-- header nav -->
+			</div>
+		</header>
+		<!-- end header -->
+		<!-- banner -->
+		<div class="banner" id="banner">
+			<div class="container-fluid">
+				<div class="banner__content">
+					<div class="banner__content--wrapper">
+						<h1>Elements</h1>
+						<p>Home -> Elements</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end banner -->
+		<!-- center -->
+        
+    	<div class="container " style="padding-top: 5%;">
+		<h4>Text Sample</h4><br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing <span style="font-weight: bold;color: blue">bold</span>. Aliquid quis repellendus incidunt sed, <span style="font-style: italic;color: blue;">Italic</span> beatae sit necessitatibus corporis ipsum perferendis nemo <s style="color: blue;font-weight: bold;">Strike</s> cum odit blanditiis eligendi soluta aperiam quidem <sub style="color: blue;">Subscript</sub> accusamus explicabo <sup style="color: blue;">Superscript</sup>. Aperiam eveniet, ea perspiciatis natus fuga. <u style="color: blue;font-weight: bold;">Underline</u> nesciunt sit soluta officia illum distinctio ipsam corrupti obcaecati, quis aspernatur, iusto in natus maiores velit repellat culpa voluptates. Optio voluptates facere quos, molestias enim necessitatibus debitis tenetur magni! Quam odio architecto praesentium voluptates sed iure maiores mollitia, nesciunt ut.</p><br>
+		<hr size="1px"><br>
+	</div>
+
+	<div class="container button1_1">
+		<button type="button" class="btn btn-light" value="blue" style="color: black;font-weight: bold;">Default</button>
+		<button type="button" class="btn btn-primary">Primary</button>
+		<button type="button" class="btn btn-success">Success</button>
+		<button type="button" class="btn btn-warning">Warning</button>
+		<button type="button" class="btn btn-danger">Danger</button>
+		<button type="button" class="btn bg-light"><a href="">Link</a></button>
+		<button type="button" class="btn btn-light " disabled="" style="color:blue;" >Disabled</button>
+	</div>
+	<div class="container button2_1" style="padding-top: 5%;" >
+		<button type="button" class="btn btn-outline-light" style="color: blue;font-weight: bold;">Default</button>
+		<button type="button" class="btn btn-outline-primary">Primary</button>
+		<button type="button" class="btn btn-outline-success">Success</button>
+		<button type="button" class="btn btn-outline-warning">Warning</button>
+		<button type="button" class="btn btn-outline-danger">Danger</button>
+		<button type="button" class="btn btn-outline-light"><a href="">Link</a></button>
+		<button type="button" class="btn btn-light " disabled="" style="color:blue;" >Disabled</button>
+	</div>
+	<div class="container button1_2"  style="padding-top: 5%;" >
+		<button type="button" class="btn btn-light" value="blue" style="color: black;font-weight: bold;">Default</button>
+		<button type="button" class="btn btn-primary">Primary</button>
+		<button type="button" class="btn btn-success">Success</button>
+		<button type="button" class="btn btn-warning">Warning</button>
+		<button type="button" class="btn btn-danger">Danger</button>
+		<button type="button" class="btn bg-light"><a href="">Link</a></button>
+		<button type="button" class="btn btn-light " disabled="" style="color:blue;" >Disabled</button>
+	</div>
+	<div class="container button2_2" style="padding-top: 5%;" >
+		<button type="button" class="btn btn-outline-light" style="color: blue;font-weight: bold;">Default</button>
+		<button type="button" class="btn btn-outline-primary">Primary</button>
+		<button type="button" class="btn btn-outline-success">Success</button>
+		<button type="button" class="btn btn-outline-warning">Warning</button>
+		<button type="button" class="btn btn-outline-danger">Danger</button>
+		<button type="button" class="btn btn-outline-light"><a href="">Link</a></button>
+		<button type="button" class="btn btn-light " disabled="" style="color:blue;" >Disabled</button>
+	</div>
+	<div class="container button1_3" style="padding-top: 5%;">
+		<button type="button" class="btn btn-light" value="blue" style="color: black;font-weight: bold;">Default</button>
+		<button type="button" class="btn btn-primary">Primary</button>
+		<button type="button" class="btn btn-success">Success</button>
+		<button type="button" class="btn btn-warning">Warning</button>
+		<button type="button" class="btn btn-danger">Danger</button>
+		<button type="button" class="btn bg-light"><a href="">Link</a></button>
+		<button type="button" class="btn btn-light " disabled="" style="color:blue;" >Disabled</button>
+	</div>
+	<div class="container button2_3" style="padding-top: 5%;" >
+		<button type="button" class="btn btn-outline-light" style="color: blue;font-weight: bold;">Default</button>
+		<button type="button" class="btn btn-outline-primary">Primary</button>
+		<button type="button" class="btn btn-outline-success">Success</button>
+		<button type="button" class="btn btn-outline-warning">Warning</button>
+		<button type="button" class="btn btn-outline-danger">Danger</button>
+		<button type="button" class="btn btn-outline-light"><a href="">Link</a></button>
+		<button type="button" class="btn btn-light " disabled="" style="color:blue;" >Disabled</button>
+	</div>
+	<div class="container button1_3" style="padding-top: 5%;">
+		<button type="button" class="btn btn-light" value="blue" style="color: black;font-weight: bold;">Default <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+		<button type="button" class="btn btn-primary">Primary <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+		<button type="button" class="btn btn-success">Success <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+		<button type="button" class="btn btn-warning">Warning <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+		<button type="button" class="btn btn-danger">Danger <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+		
+	</div>
+	<div class="container button2_3" style="padding-top: 5%;" >
+		<button type="button" class="btn btn-outline-light" style="color: blue;font-weight: bold;">Default <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+		<button type="button" class="btn btn-outline-primary">Primary <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+		<button type="button" class="btn btn-outline-success">Success <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+		<button type="button" class="btn btn-outline-warning">Warning <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+		<button type="button" class="btn btn-outline-danger">Danger <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+	</div>
+	<div class="container button1_1" style="padding-top: 5%;" >
+		<button type="button" class="btn btn-warning btn-lg" style="padding: 2%;">EXtra Large</button>
+		<button type="button" class="btn btn-primary btn-lg" style="padding: 1%;">Large</button>
+		<button type="button" class="btn btn-warning btn-lg">Default</button>
+		<button type="button" class="btn btn-primary ">Medium</button>
+		<button type="button" class="btn btn-warning btn-sm">Small</button>
+	</div>
+	<div class="container button2_1" style="padding-top: 5%;" >
+		<button type="button" class="btn btn-outline-warning btn-lg" style="padding: 2%;">EXtra Large</button>
+		<button type="button" class="btn btn-outline-primary btn-lg" style="padding: 1.5%;">Large</button>
+		<button type="button" class="btn btn-outline-warning btn-lg">Default</button>
+		<button type="button" class="btn btn-outline-primary ">Medium</button>
+		<button type="button" class="btn btn-outline-warning btn-sm">Small</button>
+		<hr size="1px"><br>
+	</div>
+
+	<div class="container">
+		<h4>Left Aligned</h4>
+		<div class="row" style="padding-top: 3%;padding-bottom: 3%;">
+			<div class="col-xl-3">
+				<img src="images/elements/d.jpg" class="img-fluid" alt="">
+			</div>
+			<div class="col-xl-9">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ex perferendis et consequuntur similique accusamus distinctio cupiditate quia, sunt impedit, consectetur voluptas dicta sint voluptatum debitis voluptatem praesentium commodi tempore reiciendis. Voluptates fuga a, voluptatibus earum rerum, animi molestiae beatae ex perferendis ab blanditiis quidem tenetur nihil doloremque et error tempore aspernatur expedita. Quo, nisi, hic. Alias nulla, quidem cupiditate. Fugiat dicta nemo quas ratione, molestiae cum voluptate amet facere sequi unde distinctio itaque explicabo ipsa, omnis earum ea eos consequatur, pariatur eligendi necessitatibus quasi nesciunt, recusandae esse qui. Cum vel nihil, atque repellendus temporibus. Esse autem omnis, reiciendis atque?</p>
+			</div>
+		</div>
+		<hr size="1px"><br>
+		<div class="row" style="padding-top: 3%;padding-bottom: 3%;">
+			<div class="col-xl-9">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ex perferendis et consequuntur similique accusamus distinctio cupiditate quia, sunt impedit, consectetur voluptas dicta sint voluptatum debitis voluptatem praesentium commodi tempore reiciendis. Voluptates fuga a, voluptatibus earum rerum, animi molestiae beatae ex perferendis ab blanditiis quidem tenetur nihil doloremque et error tempore aspernatur expedita. Quo, nisi, hic. Alias nulla, quidem cupiditate. Fugiat dicta nemo quas ratione, molestiae cum voluptate amet facere sequi unde distinctio itaque explicabo ipsa, omnis earum ea eos consequatur, pariatur eligendi necessitatibus quasi nesciunt, recusandae esse qui. Cum vel nihil, atque repellendus temporibus. Esse autem omnis, reiciendis atque?</p>
+			</div>
+			<div class="col-xl-3">
+				<img src="images/elements/d.jpg" class="img-fluid" alt="">
+			</div>
+		</div>
+		<hr size="1px"><br>
+	</div>
+	
+	<div class="container">
+		<h3>Definition</h3><br>
+		<div class="row">
+			 <div class="col-xl-4">
+			 	<h5>Definition 01</h5>
+			 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, tenetur quo sunt, provident in earum quae aliquid necessitatibus tempore omnis aspernatur temporibus impedit minima voluptas. Amet itaque quam accusantium esse.</p>
+			 </div>
+			 <div class="col-xl-4">
+			 	<h5>Definition 02</h5>
+			 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, tenetur quo sunt, provident in earum quae aliquid necessitatibus tempore omnis aspernatur temporibus impedit minima voluptas. Amet itaque quam accusantium esse.</p>
+			 </div>
+			 <div class="col-xl-4">
+			 	<h5>Definition 03</h5>
+			 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, tenetur quo sunt, provident in earum quae aliquid necessitatibus tempore omnis aspernatur temporibus impedit minima voluptas. Amet itaque quam accusantium esse.</p>
+			 </div> 
+		</div>
+		<hr size="1px"><br>
+	</div>
+	<div class="container">
+		<h3>Block Quotes</h3>
+		<div style="padding: 0 3%;border-left: 2px solid orange;">
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, voluptatum? Distinctio laboriosam earum, delectus veritatis laudantium esse ad provident vero quod tempora deserunt praesentium, a quidem architecto. Dolorem facere mollitia ducimus maiores, molestias eum dolor sed amet, quod ratione, beatae excepturi officiis maxime sequi eaque accusamus quidem nemo repellendus ipsam! Non ad tempora officiis repellat dolores quia culpa blanditiis dolorem debitis beatae. Optio iure distinctio sed, nisi odio animi facere unde nihil odit ratione ut illum, ex veritatis dignissimos veniam fugit neque aperiam ea voluptate. Consectetur distinctio officia culpa, quidem error hic, alias laborum similique cupiditate repellendus iste officii
+		</p>
+		</div>
+		<hr size="1px" style="margin-top: 3%;"><br>
+	</div>
+
+	<div class="container">
+		<h3>Table</h3>
+		<div class="row text-center">
+			<div class="col-xl-1">
+				#
+			</div>
+			<div class="col-xl-3" style="font-weight: bold;"> 
+				 COUNTRIES
+			</div>
+			<div class="col-xl-3 "style="font-weight: bold;">
+				VISITS
+			</div>
+			<div class="col-xl-5 text-left"style="font-weight: bold;">
+				PERCENTAGES
+			</div>
+
+		</div>
+		<hr size="1px" color=" #e6ffe6"><br>
+		<div class="row text-center">
+			<div class="col-xl-1">
+				01
+			</div>
+			<div class="col-xl-3" style="font-weight: bold;"> 
+				<div class="row">
+					<div class="col-xl-4">
+						 <img src="images/elements/f1.jpg" class="img-fluid" alt="">
+					</div>
+					<div class="col-xl-8 text-left" >
+						<span style="font-weight: bold;"> Canada</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 "style="font-weight: bold;">
+				645032
+			</div>
+			<div class="col-xl-5 text-left"style="font-weight: bold;">
+				<div class="progress" style="height: 10px">
+				  <div class="progress-bar" role="progressbar" style="width: 56%;height: 10px;" aria-valuenow="41" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<hr size="1px" color=" #e6ffe6"><br>
+
+		<div class="row text-center">
+			<div class="col-xl-1">
+				02
+			</div>
+			<div class="col-xl-3" style="font-weight: bold;"> 
+				<div class="row">
+					<div class="col-xl-4">
+						 <img src="images/elements/f2.jpg" class="img-fluid" alt="">
+					</div>
+					<div class="col-xl-8 text-left" >
+						<span style="font-weight: bold;"> USA</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 "style="font-weight: bold;">
+				645032
+			</div>
+			<div class="col-xl-5 text-left"style="font-weight: bold;">
+				<div class="progress" style="height: 10px">
+				  <div class="progress-bar bg-danger" role="progressbar" style="width: 20%;height: 10px;" aria-valuenow="41" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<hr size="1px" color=" #e6ffe6"><br>
+
+		<div class="row text-center">
+			<div class="col-xl-1">
+				03
+			</div>
+			<div class="col-xl-3" style="font-weight: bold;"> 
+				<div class="row">
+					<div class="col-xl-4">
+						 <img src="images/elements/f3.jpg" class="img-fluid" alt="">
+					</div>
+					<div class="col-xl-8 text-left" >
+						<span style="font-weight: bold;"> Ireland</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 "style="font-weight: bold;">
+				645032
+			</div>
+			<div class="col-xl-5 text-left"style="font-weight: bold;">
+				<div class="progress" style="height: 10px">
+				  <div class="progress-bar bg-warning" role="progressbar" style="width: 35%;height: 10px" aria-valuenow="41" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<hr size="1px" color=" #e6ffe6"><br>
+
+		<div class="row text-center">
+			<div class="col-xl-1">
+				04
+			</div>
+			<div class="col-xl-3" style="font-weight: bold;"> 
+				<div class="row">
+					<div class="col-xl-4">
+						 <img src="images/elements/f4.jpg" class="img-fluid" alt="">
+					</div>
+					<div class="col-xl-8 text-left" >
+						<span style="font-weight: bold;"> Deutschland</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 "style="font-weight: bold;">
+				645032
+			</div>
+			<div class="col-xl-5 text-left"style="font-weight: bold;">
+				<div class="progress" style="height: 10px">
+				  <div class="progress-bar" role="progressbar" style="width: 40%;height: 10px;background:#33ffad;" aria-valuenow="41" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<hr size="1px" color=" #e6ffe6"><br>
+
+		<div class="row text-center">
+			<div class="col-xl-1">
+				05
+			</div>
+			<div class="col-xl-3" style="font-weight: bold;"> 
+				 <div class="row">
+					<div class="col-xl-4">
+						 <img src="images/elements/f5.jpg" class="img-fluid" alt="">
+					</div>
+					<div class="col-xl-8 text-left" >
+						<span style="font-weight: bold;"> Australia</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 "style="font-weight: bold;">
+				645032
+			</div>
+			<div class="col-xl-5 text-left"style="font-weight: bold;">
+				<div class="progress" style="height: 10px">
+				  <div class="progress-bar" role="progressbar" style="width: 28%;height: 10px;background:#33ffad;" aria-valuenow="41" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<hr size="1px" color=" #e6ffe6"><br>
+		
+		<div class="row text-center">
+			<div class="col-xl-1">
+				06
+			</div>
+			<div class="col-xl-3" style="font-weight: bold;"> 
+				 <div class="row">
+					<div class="col-xl-4">
+						 <img src="images/elements/f6.jpg" class="img-fluid" alt="">
+					</div>
+					<div class="col-xl-8 text-left" >
+						<span style="font-weight: bold;"> China</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 "style="font-weight: bold;">
+				645032
+			</div>
+			<div class="col-xl-5 text-left"style="font-weight: bold;">
+				<div class="progress" style="height: 10px">
+				  <div class="progress-bar" role="progressbar" style="width: 54%;height: 10px;" aria-valuenow="41" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<hr size="1px" color=" #e6ffe6"><br>
+
+		<div class="row text-center">
+			<div class="col-xl-1">
+				07
+			</div>
+			<div class="col-xl-3" style="font-weight: bold;"> 
+				<div class="row">
+					<div class="col-xl-4">
+						 <img src="images/elements/f7.jpg" class="img-fluid" alt="">
+					</div>
+					<div class="col-xl-8 text-left" >
+						<span style="font-weight: bold;"> Bangladesh</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 "style="font-weight: bold;">
+				645032
+			</div>
+			<div class="col-xl-5 text-left"style="font-weight: bold;">
+				<div class="progress" style="height: 10px">
+				  <div class="progress-bar" role="progressbar" style="width: 20%;height: 10px;background:#990099;" aria-valuenow="41" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<hr size="1px" color=" #e6ffe6"><br>
+
+		<div class="row text-center">
+			<div class="col-xl-1">
+				08
+			</div>
+			<div class="col-xl-3" style="font-weight: bold;"> 
+				<div class="row">
+					<div class="col-xl-4">
+						 <img src="images/elements/f8.jpg" class="img-fluid" alt="">
+					</div>
+					<div class="col-xl-8 text-left" >
+						<span style="font-weight: bold;"> Bỉ</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 "style="font-weight: bold;">
+				645032
+			</div>
+			<div class="col-xl-5 text-left"style="font-weight: bold;">
+				<div class="progress" style="height: 10px">
+				  <div class="progress-bar" role="progressbar" style="width: 50%;height: 10px;background:#e6005c;" aria-valuenow="41" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<hr size="1px" color=" #e6ffe6"><br>
+	</div>
+	<div class="images container-fluid">
+	<div class="container " >
+		<h3>Image Gallery</h3><br>
+		<div class="row">
+			<div class="img col-lg-4">
+				<a href="img/images/elements/g1.jpg"><img src="images/elements/g1.jpg" style="width: 100%;height: 100%;" alt=""></a>
+			</div>
+			<div class="img col-lg-4">
+				<a href="img/images/elements/g2.jpg"><img src="images/elements/g2.jpg" style="width: 100%;height: 100%;" alt=""></a>
+			</div>
+			<div class="img col-lg-4">
+				<a href="img/images/elements/g3.jpg"><img src="images/elements/g3.jpg" style="width: 100%;height: 100%;" alt=""></a>
+			</div>
+		</div>
+		<div class="row" style="padding-top: 2%">
+			<div class="img col-lg-6">
+				<a href="img/images/elements/g4.jpg"><img src="images/elements/g4.jpg" style="width: 100%;height: 100%;" alt=""></a>
+			</div>
+			<div class="img col-lg-6">
+				<a href="img/images/elements/g5.jpg"><img src="images/elements/g5.jpg" style="width: 100%;height: 100%;" alt=""></a>
+			</div>
+		</div>
+		<div class="row" style="padding-top: 2%;">
+			<div class="img col-lg-4">
+				<a href="img/images/elements/g6.jpg"><img src="images/elements/g6.jpg" style="width: 100%;height: 100%;" alt=""></a>
+			</div>
+			<div class="img col-lg-4">
+				<a href="img/images/elements/g7.jpg"><img src="images/elements/g7.jpg" style="width: 100%;height: 100%;" alt=""></a>
+			</div>
+			<div class="img col-lg-4">
+				<a href="img/images/elements/g8.jpg"><img src="images/elements/g8.jpg" style="width: 100%;height: 100%;" alt=""></a>
+			</div>
+		</div>
+		<hr size="1px" style="margin-top: 3%;"><br>
+	</div>
+	</div>
+
+	<div class="container" >
+		<div class="row">
+			<div class="col-lg-4">
+				<h3>Typography</h3>
+				<h1>This is header 01</h1>
+				<h2>This is header 02</h2>
+				<h3>This is header 03</h3>
+				<h4>This is header 04</h4>
+				<h5>This is header 05</h5>
+				<h6>This is header 06</h6>
+			</div>
+			<div class="col-lg-4">
+				<h3>Unordered List</h3>
+				<ul style="list-style:circle; ;">
+					<li>Fta Keys</li>
+					<li>For Women Only Your Computer Usage</li>
+					<li>Facts Why Inkjet Printing Is Very Appealing 
+						<ul>
+							<li>Addiction When Gambling Becomes
+								<ul>
+									<li>Protective Preventative Maintenance</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>Dealing With Technical Support 10 Useful Tips</li>
+					<li>Make MySpace Your Best Designed Space</li>
+					<li>Cleaning And Organizing Your Computer</li>
+				</ul>
+			</div>
+			<div class="col-lg-4">
+				<h3>Typography</h3>
+				<ol style="list-style:decimal-leading-zero;">
+					<li>Fta Keys</li>
+					<li>For Women Only Your Computer Usage</li>
+					<li>Facts Why Inkjet Printing Is Very Appealing 
+						<ol style="list-style: lower-alpha;">
+							<li>Addiction When Gambling Becomes
+								<ol style="list-style: lower-roman;">
+									<li>Protective Preventative Maintenance</li>
+								</ol>
+							</li>
+						</ol>
+					</li>
+					<li>Dealing With Technical Support 10 Usefol Tips</li>
+					<li>Make MySpace Your Best Designed Space</li>
+					<li>Cleaning And Organizing Your Computer</li>
+				</ol>
+			</div>
+		</div>
+		<hr size="1px" style="margin-top: 3%;"><br>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9">
+				<h3>Form ELement</h3>
+				<div class="form-group" >
+					<input type="text" class="form-control bg-light" id="formGroupExampleInput" placeholder="First Name">
+					<input type="text" class="form-control bg-light" id="formGroupExampleInput" placeholder="Last Name">
+					<input type="text" class="form-control bg-light" id="formGroupExampleInput" placeholder="Last Name ">
+					<input type="text" class="form-control bg-light" id="formGroupExampleInput" placeholder="Email Address">
+					<input type="text" class="form-control bg-light" id="formGroupExampleInput" placeholder="Address">
+					<input type="text" class="form-control bg-light" id="formGroupExampleInput" placeholder="City">
+					<input type="text" class="form-control bg-light" id="formGroupExampleInput" placeholder="Country">
+					<textarea style="margin-bottom: 3%;" type="text" class="form-control bg-light" id="formGroupExampleInput" placeholder="Messege"></textarea>
+					<input type="text" class="form-control bg-light" id="formGroupExampleInput" placeholder="Primary color">
+					<input type="text" class="form-control bg-light" id="formGroupExampleInput" placeholder="Accent color">
+					<input type="text" class="form-control bg-light" id="formGroupExampleInput" placeholder="Secondary color">
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<h3>Switches</h3>
+
+			</div>
+		</div>
+	</div>
+        
+		<footer class="footer">
+			<div class="container-fluid">
+				<div class="container">
+					<div class="footer__wrapper">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-2 footer__top--products">
+								<h3>Top Products</h3>
+								<p>Managed Website</p>
+								<p>Managed Reputation</p>
+								<p>Power Tools</p>
+								<p>Marketing Services</p>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 footer__contact">
+								<h3>Contact Us</h3>
+								<address>56/8, Santa bullevard , Rocky beach , San fransisco , Los angeles , USA</address>
+								<h1>012-6532-568-746</h1>
+								<h1>012-6532-568-97468</h1>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 footer__news">
+								<h3>Newsletter</h3>
+								<p>You can trus us.We only send promo offers , not a single spam.</p>
+								<form action="" class="footer__news--started">
+									<input type="text" name="" id="footer_news--started__write" placeholder="Your email address">
+									<div>
+										<input type="submit" value="Get Started">
+									</div>
+
+								</form>
+
+							</div>
+						</div>
+					</div>
+					<div class="footer__social">
+						<div class="footer__social--wrapper">
+							<span>Copyright &copy;2019 All rights reserved | This templates is made width <i class="fa fa-heart"></i> by <a href="#"> Kindeser</a></span>
+							<span>
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa-google"></i></a>
+							</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+
+
+	</div>
+
+</body>
+</html>
